@@ -38,8 +38,7 @@ void main() {
   print('BookAge:${bookThree.getBookAge()}');
   print('PagesRead:${bookThree.getPagesRead()}');
   print('PublicationYear:${bookThree.publicationYear}');
-
+  print('');
 
   print('Total Books:${Book.totalBooks}');
-
 }

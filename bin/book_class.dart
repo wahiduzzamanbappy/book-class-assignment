@@ -30,7 +30,6 @@ class Book {
   }
 
   int getBookAge() {
-    //return 2024 - publicationYear;
     final now = DateTime.now();
     return now.year - publicationYear;
   }
